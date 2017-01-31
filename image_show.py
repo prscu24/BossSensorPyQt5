@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
 import sys
 
-from PyQt4 import QtGui
+from PyQt5 import QtGui, QtCore
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 
 
 def show_image(image_path='s_pycharm.jpg'):
-    app = QtGui.QApplication(sys.argv)
+    app = QApplication(sys.argv)
     pixmap = QtGui.QPixmap(image_path)
-    screen = QtGui.QLabel()
+    screen = QLabel()
     screen.setPixmap(pixmap)
     screen.showFullScreen()
     sys.exit(app.exec_())
