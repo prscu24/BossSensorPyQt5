@@ -86,23 +86,33 @@ PyQt5で動作するように修正されました。
 
 ## Usage
 You can install and use the same as [Hironsan] (https://github.com/Hironsan).
+
 [Hironsan](https://github.com/Hironsan)님의 원문과 동일하게 설치 및 사용이 가능합니다.
+
 [Hironsan]（https://github.com/Hironsan）さんの原文と同じようにインストールして使用が可能です。
 
 
 ## Must Check and Edit Here!!! Tips
 If you can not run, please be sure to modify the path below.
+
 실행 할 수 없는 분은 아래의 경로를 반드시 수정하세요.
+
 実行することができない方は、以下のパスを必ず変更してください。
 
+“`
 in camera_reader.py
 cascade_path = "/usr/local/opt/opencv/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml"
+“`
 
 Change To Your OpenCV Installed Dir. 
+
 당신의 OpenCV 설치 디렉토리로 변경하십시오.
+
 あなたのOpenCVインストールディレクトリに変更してください。
 
+“`
 /usr/local/opt/opencv/share/OpenCV/haarcascades/ -> Your Dir. 당신의 Dir. あなたのDir.
+“`
 
 ## About face recognition performance
 To improve face recognition performance, you need a lot of pictures to learn.
