@@ -64,8 +64,6 @@ Change Keras backend from Theano to TensorFlow.
 
 
 # Modified Info
-## Modify by
-[Kpaper](http://blog.kpaper.com)
 
 ## Detail
 Test the latest library operation.
@@ -100,8 +98,7 @@ If you can not run, please be sure to modify the path below.
 実行することができない方は、以下のパスを必ず変更してください。
 
 `
-in camera_reader.py
-
+in camera_reader.py : 
 cascade_path = "/usr/local/opt/opencv/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml"
 `
 
@@ -124,3 +121,6 @@ Though it is introduced in the original author's blog, it is necessary to acquir
 
 顔認識の性能を上げるには、学習したときに、非常に多くの写真が必要になります。
 原作者のブログでも紹介しているが、被写体の了解を求め、最小数百枚、最大1500枚ほどの多角撮影画像が必要になります。
+
+## Modify by
+[Kpaper](http://blog.kpaper.com/2017/02/bosssensor.html)
