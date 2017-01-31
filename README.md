@@ -99,10 +99,11 @@ If you can not run, please be sure to modify the path below.
 
 実行することができない方は、以下のパスを必ず変更してください。
 
-“`
+`
 in camera_reader.py
+
 cascade_path = "/usr/local/opt/opencv/share/OpenCV/haarcascades/haarcascade_frontalface_default.xml"
-“`
+`
 
 Change To Your OpenCV Installed Dir. 
 
@@ -110,9 +111,9 @@ Change To Your OpenCV Installed Dir.
 
 あなたのOpenCVインストールディレクトリに変更してください。
 
-“`
+`
 /usr/local/opt/opencv/share/OpenCV/haarcascades/ -> Your Dir. 당신의 Dir. あなたのDir.
-“`
+`
 
 ## About face recognition performance
 To improve face recognition performance, you need a lot of pictures to learn.
